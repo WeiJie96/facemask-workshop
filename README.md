@@ -156,6 +156,7 @@ Note that the **backend code is incomplete** - you'll be filling in the blanks d
 1. In the root folder, navigate to the **frontend subdirectory** by typing `cd frontend`.
 1. Type `npm install` to **install the frontend project dependencies** specified in `package.json`. This might take a while so grab a coffee :coffee:.
 1. Once the dependencies have finished installing, type `npm run dev` to **run the website's server** (`nextjs`).
+1. Alternatively, you can run `npm run build`, then `npm run start`, to run a production server instead of a development server (as above).
 1. Visit `localhost:3000` in your browser to **see the website live!**
 
 ## Running the backend (FastAPI server)
